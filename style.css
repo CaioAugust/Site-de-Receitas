@@ -10,6 +10,8 @@ main {
   margin: 10px;
   padding: 10px;
   border-radius: 20px ;
+  object-fit: cover;
+  object-position: center;
 }
 
 .titulo1 {
@@ -17,11 +19,15 @@ main {
   text-align: center;
 }
 
+
+/*IMAGEM RESPONSIVA */
 .ImagemWaffle {
-  width: 1400px;
-  height: 500px;
-  object-fit: cover;
   border-radius: 20px;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+  
 }
 
 figure {
